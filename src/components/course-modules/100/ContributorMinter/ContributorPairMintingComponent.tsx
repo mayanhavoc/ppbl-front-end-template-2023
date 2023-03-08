@@ -25,7 +25,7 @@ const ContributorPairMintingComponent = () => {
       contributorAlias: "",
     },
     onSubmit: (values) => {
-      alert("Success!");
+      alert("¡Éxito!");
     },
   });
 
@@ -81,14 +81,14 @@ const ContributorPairMintingComponent = () => {
       const txHash = await wallet.submitTx(userSignedTx);
       console.log("Success!", txHash);
     } else {
-      alert("Please enter a unique alias for your token.");
+      alert("Por favor crea un alias único para tu token.");
     }
   };
 
   return (
     <Box borderColor="theme.four" fontSize="lg" lineHeight="9">
       <Heading size="md" py="3">
-        Mint a Contributor Token Pair
+        Acuña un 'Contributor Token Pair'
       </Heading>
       <FormControl color="black">
         <Input
@@ -102,7 +102,7 @@ const ContributorPairMintingComponent = () => {
         />
       </FormControl>
       <Button colorScheme="green" onClick={handleMintingTransaction}>
-        Mint Your {contributorTokenName}
+        Acuña tu {contributorTokenName}
       </Button>
     </Box>
   );

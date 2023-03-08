@@ -1,6 +1,6 @@
 export const items = [
   {
     slug: "slts",
-    name: "Student Learning Targets",
+    name: "Objetivos de Aprendizaje del Estudiante",
   },
 ];

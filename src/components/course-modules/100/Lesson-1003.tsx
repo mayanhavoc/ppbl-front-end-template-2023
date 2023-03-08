@@ -12,14 +12,14 @@ export default function Lesson1003() {
       <Grid templateColumns="repeat(2, 1fr)" gap={10}>
         <AssignmentComponent>
           <Text py="2">
-            When building on Cardano, there are a few different ways you will handle your keys. We will start with
-            mnemonics. Later in this course, we will discuss key management on cardano-cli and in applications.
+            Cuando construyes en Cardano, hay diferentes maneras en que puedes manejar tus llaves. Empezaremos utilizando 
+            mnemotécnica. Más adelante en el curso discutiremos manejo de llaves en el cardano-cli y en aplicaciones.
           </Text>
         </AssignmentComponent>
-        <SuccessComponent mastery={false}>You are confident that no one else can access your keys.</SuccessComponent>
+        <SuccessComponent mastery={false}>Estás seguro que nadie tiene acceso a tus llaves.</SuccessComponent>
       </Grid>
       <Link href="/modules/100/1004">
-        <Button my="1em">Continue to Lesson 4</Button>
+        <Button my="1em">Continúa a la Lección 4</Button>
       </Link>
     </Stack>
   );

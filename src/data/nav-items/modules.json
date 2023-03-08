@@ -1,51 +1,51 @@
 {
     "childrenHasChildren": [
       {
-        "label": "100: Onboarding",
+        "label": "100: Inducción",
         "children": [
           {
             "label": "100",
-            "subLabel": "Introductions and Getting Started",
+            "subLabel": "Introducción y primeros pasos",
             "href": "/modules/100"
           },
           {
             "label": "101",
-            "subLabel": "Write your first smart contract",
+            "subLabel": "Escribe tu primer 'smart contract'",
             "href": "/modules/101"
           },
           {
             "label": "102",
-            "subLabel": "Build your first transactions",
+            "subLabel": "Construye tus primeras transacciones",
             "href": "#"
           },
           {
             "label": "103",
-            "subLabel": "What you will learn in this course",
+            "subLabel": "Que vas a aprender en este curso",
             "href": "#"
           }
         ]
       },
       {
-        "label": "200: Building Background Knowledge",
+        "label": "200: Desarrollando conocimientos básicos",
         "children": [
           {
             "label": "201",
-            "subLabel": "Build a front end dApp template",
+            "subLabel": "Construye una plantilla para tu dApp",
             "href": "#"
           },
           {
             "label": "202",
-            "subLabel": "Three ways to mint a token",
+            "subLabel": "Tres maneras de acuñar un token",
             "href": "#"
           },
           {
             "label": "203",
-            "subLabel": "Three ways to mint an NFT",
+            "subLabel": "Tres maneras de acuñar un NFT",
             "href": "#"
           },
           {
             "label": "204",
-            "subLabel": "Writing & using plutus validators",
+            "subLabel": "Escribir y utilizar validadores Plutus",
             "href": "#"
           }
         ]

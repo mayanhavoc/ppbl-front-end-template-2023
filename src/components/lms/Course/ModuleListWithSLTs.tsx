@@ -38,12 +38,12 @@ const ModuleListWithSLTs = () => {
           <AccordionPanel>
             <Link href={`/modules/${module.number}`}>
               <Text pb="2" color="theme.yellow">
-                Go to Module {module.number}
+                Ir al módulo {module.number}
               </Text>
             </Link>
             <Divider />
             <Text fontWeight="bold" py="2">
-              Student Learning Targets:
+              Objetivos de Aprendizaje del Estudiante:
             </Text>
             <UnorderedList>
               {module.slts.map((slt) => (

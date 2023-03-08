@@ -7,7 +7,7 @@ type Props = {
 const AssignmentComponent: React.FC<Props> = ({ children }) => {
   return (
     <Box w="80%" mx="auto" my="3" fontSize="lg" lineHeight="9">
-        <Heading size="lg" py="3">Mastery Assignment:</Heading>
+        <Heading size="lg" py="3">Tarea de Maestría:</Heading>
       {children}
     </Box>
   );

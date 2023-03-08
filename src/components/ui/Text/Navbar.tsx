@@ -91,7 +91,7 @@ import {
               fontWeight={400}
               variant={'link'}
               href={'#'}>
-              Sign In
+              Iniciar sesión
             </Button>
             <Button
               as={'a'}
@@ -102,7 +102,7 @@ import {
               _hover={{
                 bg: 'theme.blue',
               }}>
-              Sign Up
+              Registrarse
             </Button>
             <CardanoWallet />
             <Button onClick={toggleColorMode}>

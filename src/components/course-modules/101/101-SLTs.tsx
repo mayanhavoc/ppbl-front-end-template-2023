@@ -8,7 +8,7 @@ const SLTs101 = () => {
       <SLTsItems moduleTitle="Module 101" moduleNumber={101} />
       <Divider mt="5" />
       <Box py="5">
-        <Heading>About this Module</Heading>
+        <Heading>Acerca de este módulo</Heading>
       </Box>
     </Container>
   );

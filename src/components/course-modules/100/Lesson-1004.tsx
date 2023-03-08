@@ -26,16 +26,16 @@ export default function Lesson1004() {
 
   return (
     <Stack marginTop="2em" divider={<StackDivider borderColor="theme.three" />}>
-      <SLT id="100.4">I can mint a Contributor Token for PPBL</SLT>
+      <SLT id="100.4">Puedo acuñar un 'Contributor Token' para el PPBL</SLT>
 
       <SuccessComponent mastery={connected && connectedPPBL2023Token != undefined}>
-        <Text py="2">You have a PPBL2023 Token in your connected wallet.</Text>
-        <Text py="2">Look in your wallet to see if you have a token with the Policy Id</Text>
+        <Text py="2">Tienes un Token PPBL2023 en tu billetera.</Text>
+        <Text py="2">Revisa tu billetera para asegurarte que tu 'token' tenga el 'Policy Id'</Text>
         <code>05cf1f9c1e4cdcb6702ed2c978d55beff5e178b206b4ec7935d5e056</code>
       </SuccessComponent>
       <AssignmentComponent>
         <Text>
-          If you have a wallet connected to Cardano Preprod Testnet, you will be able to complete this assignment.
+          Si tu billetera está conectada al Testnet de pre-producción de Cardano, podrás completar esta tarea.
         </Text>
         <Box my="5" p="2" bg="gray.500" color="gray.900">
           {connected ? (
@@ -43,29 +43,26 @@ export default function Lesson1004() {
               {connectedPPBL2023Token != undefined && (
                 <>
                   <Heading size="md" py="3">
-                    &#127881; Looks like you already have a token &#127881;
+                    &#127881; Parece que ya tienes tu token &#127881;
                   </Heading>
-                  <Text py="3">Congratulations, you demonstrated mastery of this learning target! </Text>
+                  <Text py="3">¡Feliciaciones, has demostrado maestría en este objetivo de aprendizaje! </Text>
                   <Heading size="md" py="3">
-                    &#127959; Up Next: &#127959;
+                    &#127959; Suigiente paso: &#127959;
                   </Heading>
                   <UnorderedList>
                     <ListItem>
                       {" "}
-                      In this Plutus PBL Course, you will learn how your PPBL2023 token was minted, and how to use
-                      tokens to make applications respond differently when different tokens are connected.
+                      En este curso PBL de Plutus, aprenderás como se acuño tu token PPBL2023 y como utilizar tokens para que las aplicaciones respondan de manera diferente a diferentes tokens.
                     </ListItem>
                     <ListItem>
-                      In Modules 101 and 102, you will learn how to change the lucky number on your new Contributor
-                      Token.
+                      En los módulos 101 y 102, aprenderás a cambiar el número de la suerte en tu 'Contributor Token'.
                     </ListItem>
                     <ListItem>
-                      You will also learn how to hack this web site and mint as many PPBL2023 tokens as you want - but
-                      more on that later.
+                      Así también aprenderás como hackera este sitio web para acuñar cuantos tokens PPBL2023 quieras - más sobre eso en el futuro.
                     </ListItem>
                   </UnorderedList>
                   <Text py="3"></Text>
-                  <Text py="3">We are excited to be on this journey with you - let's go!</Text>
+                  <Text py="3">¡Nos emociona participar en esta aventura contigo - manos a la obra!</Text>
                 </>
               )}
               {connectedPPBL2023Token == undefined && (
@@ -75,7 +72,7 @@ export default function Lesson1004() {
               )}
             </>
           ) : (
-            "make sure to connect a wallet"
+            "asegúrate de conectar tu billetera"
           )}
         </Box>
       </AssignmentComponent>

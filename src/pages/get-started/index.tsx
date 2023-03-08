@@ -12,7 +12,7 @@ const GetStarted = () => {
   return (
     <>
       <Head>
-        <title>Get Started</title>
+        <title>Empieza aquí</title>
       </Head>
       <div>
         <Sidebar items={items} modulePath="/get-started" selected={0} />

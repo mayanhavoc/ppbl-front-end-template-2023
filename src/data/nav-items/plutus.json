@@ -1,19 +1,19 @@
 {
     "children": [
       {
-          "label": "On-chain essentials",
+          "label": "Fundamentos básicos de 'On-chain'",
           "href": "#"
       },
       {
-          "label": "Off-chain essentials",
+          "label": "Fundamentos básicos de 'Off-chain'",
           "href": "#"
       },
       {
-          "label": "Off-chain essentials",
+          "label": "Fundamentos básicos de 'Off-chain'",
           "href": "#"
       },
       {
-          "label": "Intro to testing and optimization",
+          "label": "Introducción al 'testing' y optimización",
           "href": "#"
       }
     ]

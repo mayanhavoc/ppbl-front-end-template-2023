@@ -7,29 +7,26 @@ const ListOfModules = () => {
   return (
     <Container maxWidth="80%" marginLeft="0">
       <Heading size="2xl" color="theme.blue" my="1em">
-        Plutus PBL Course Outline
+        Esquema del curso Plutus PBL
       </Heading>
       <Text fontSize="xl" pb="5">
-        Each Module has a number. The Student Learning Targets (SLTs) in each Module are also numbered. The purpose of
-        this numbering system is to give all of us a quick way to reference what you are learning.
+        Cada módulo tiene un número. El objetivo de aprendizaje de cada módulo también está numerado. El propósito de este sistema de enumeración es dar una referencia rápida de lo que estás aprendiendo.
       </Text>
       <Text fontSize="xl" pb="5">
-        When you get stuck, you can start by saying, "I need help with SLT 102.3", which is a quick indication that you
-        are learning to build transactions using cardano-cli. For an overview of what you will learn in PPBL 2023, take
-        a look at the SLTs below.
+        Cuando te encuentres atascado, puedes empezar diciendo 'Necesito ayuda con el SLT 102.3', lo que indicaría que estás aprendiendo a construir transacciones utilizando el cardano-cli. Para un vistazo general de lo que aprenderás en el PPBL 2023, dale un vistazo a los SLTs abajo.
       </Text>
       <Text fontSize="lg" fontWeight="bold" color="theme.yellow" pb="5">
-        Click on a Module to view Student Learning Targets.
+        Haz click en un módulo para ver los Objetivos de Aprendizaje del Estudiante.
       </Text>
       <ModuleListWithSLTs />
       <Heading size="xl" color="theme.blue" my="0.8em">
-        Next:
+        Siguientes pasos:
       </Heading>
       <Text fontSize="xl" my="5">
-        All of our work leads toward Governance.
+        Todo este trabajo nos lleva hacia un modelo de Governanza.
       </Text>
       <Link href="/get-started/governance">
-        <Button>How does PPBL connect to Governance?</Button>
+        <Button>¿Cómo se conecta el PPBL al concepto de Governanza?</Button>
       </Link>
       <Divider my="2em" />
     </Container>

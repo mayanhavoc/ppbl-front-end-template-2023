@@ -8,25 +8,21 @@ const SLTs100 = () => {
     <Container maxWidth="90%" marginTop="2em">
       <SLTsItems moduleTitle="Module 100" moduleNumber={100} />
       <Divider mt="5" />
-      <Heading py="3">Welcome to Plutus PBL 2023!</Heading>
+      <Heading py="3">¡Bienvenido al Plutus PBL 2023!</Heading>
       <Text py="3" fontSize="lg">
-        The purpose of this module is to give you an example of how this course works. There are a few things we'd like
-        to point out.
+        El propósito de este módulo es dar un ejemplo de como funciona el curso. Algunas aspectos importantes:
       </Text>
       <Text py="3" fontSize="lg">
-        First, please note that every Module in PPBL starts with a list of Student Learning Targets (SLTs). In this
-        module, you will start to see some different ways to think about "Mastery" of each SLT.
+        Primero, cada módulo en el PPBL empieza con una lista de Objetivos de Aprendizaje del Estudiante (SLTs). En este módulo, empezarás a ver diferentes maneras de obtener 'Maestría' en cada SLT.
       </Text>
       <Text py="3" fontSize="lg">
-        Notice also that at the top of the page there is a status bar that corresponds to these learning targets. You
-        will see how this works in Lesson 1.
+        En la parte superior de cada página podrás ver tu status que corresponde a tus objetivos de aprendizaje. Puedes observar como funciona en la Lección 1.
       </Text>
       <Text py="3" fontSize="lg">
-        We will continue to show you around in the next few lessons. For now, use the sidebar to navigate to Lesson 1,
-        or tap the button below.
+        En las próximas lecciones continuaremos explorando estos aspectos de la plataforma. Por ahora, puedes usar el menu lateral para navegar a la Lección 1 o puedes hacer click en el botón abajo.
       </Text>
       <Link href="/modules/100/1001">
-        <Button my="1em">I am ready for Lesson 1!</Button>
+        <Button my="1em">¡Estoy listo para la Lección 1!</Button>
       </Link>
     </Container>
   );

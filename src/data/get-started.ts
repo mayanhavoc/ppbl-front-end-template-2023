@@ -1,18 +1,18 @@
 export const items = [
     {
       slug: "framework",
-      name: "PBL Framework",
+      name: "Esquema del PBL",
     },
     {
       slug: "slts",
-      name: "About Student Learning Targets",
+      name: "Acerca de los Objetivos de Aprendizaje del Estudiante",
     },
     {
       slug: "modules",
-      name: "List of Course Modules",
+      name: "Lista de módulos del curso",
     },
     {
       slug: "governance",
-      name: "Governance",
+      name: "Governanza",
     },
   ];

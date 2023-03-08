@@ -13,12 +13,12 @@ export default function Lesson1001() {
 
   return (
     <Stack marginLeft="1em" marginTop="2em" divider={<StackDivider borderColor="theme.three" />}>
-      <SLT id="100.1">I can connect a Cardano wallet to the pre-production test network</SLT>
+      <SLT id="100.1">Puedo conectar mi billetera Cardano al testnet de pre-producción.</SLT>
       <GridItem colSpan={2} w="50%" mx="auto">
-        <VideoComponent videoId="aa">Using a Testnet</VideoComponent>
+        <VideoComponent videoId="aa">Usando el Testnet</VideoComponent>
       </GridItem>
       <AssignmentComponent>
-        <Text py="5">Try to connect a wallet. Make sure it is on a test network!</Text>
+        <Text py="5">Intenta conectar tu billetera.¡Asegúrate de estar en el testnet!</Text>
         <Box mb="20">
           <CardanoWallet />
         </Box>
@@ -26,18 +26,18 @@ export default function Lesson1001() {
         <Box bg="theme.light" color="theme.dark" p="5">
           {connected ? (
             <Box>
-              {network == 0 ? "Success!" : "Time to troubleshoot. There are a few things that could be going on."}
+              {network == 0 ? "¡Éxito!" : "Es momento de resolver problemas. Estas son algunas cosas que podrían estar dando problemas."}
             </Box>
           ) : (
-            "No wallet is connected. Try to connect one. If it does not work, there a few potential reasons for this. Watch the video above to learn more."
+            "No hay una billetera conectada, intenta conectar una billetera. Si eso no funciona, puede ser por varias potenciales razones. Mira el video para aprender más."
           )}
         </Box>
       </AssignmentComponent>
       <SuccessComponent mastery={connected && network == 0}>
-        You are connected to a Cardano Testnet - how can we handle more a interactive success message here?
+        Estás conectado a una Testnet de Cardano
       </SuccessComponent>
       <Link href="/modules/100/1002">
-        <Button my="1em">Continue to Lesson 2</Button>
+        <Button my="1em">Continuar a la Lección 2</Button>
       </Link>
     </Stack>
   );

@@ -12,7 +12,7 @@
     },
     {
       "number": 101,
-      "title": "Write Your First Smart Contract",
+      "title": "Escribe tu primer 'Smart Contract'",
       "slts": [
         { "id": "101.1", "slt": "Puedo compilar un validador plutus a Untyped Plutus Core (UPLC)." },
         { "id": "101.2", "slt": "Entiendo el rol que juega el UPLC en una aplicación decentralizada en Cardano." },
@@ -148,6 +148,6 @@
         { "id": "305.5", "slt": "Puedo poner a prueba la validación de un 'script' escrito en Aiken." }
       ]
     },
-    { "number": 401, "title": "Introducción al Proyecto GImbal de Tesorería y Depósito en Garantía", "slts": [] }
+    { "number": 401, "title": "Introducción al Proyecto Gimbal de Tesorería y Depósito en Garantía", "slts": [] }
   ]
 }

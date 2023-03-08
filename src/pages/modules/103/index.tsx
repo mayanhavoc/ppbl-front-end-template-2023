@@ -8,7 +8,7 @@ const Module103 = () => {
   return (
     <>
     <Head>
-      <title>PPBL Module 103</title>
+      <title>Módulo 103 PPBL</title>
     </Head>
     <div>
       <Sidebar items={items} modulePath="/modules/103" selected={0} />

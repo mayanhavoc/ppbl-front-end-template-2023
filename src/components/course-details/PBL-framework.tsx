@@ -6,49 +6,49 @@ const PBLFramework = () => {
   return (
     <Container maxWidth="90%" marginLeft="2em" marginTop="2em">
       <Heading size="xl" color="theme.blue" lineHeight="1.4">
-        The goal of any PBL Course is to support people to become Contributors to real Projects.
+        La meta de cualquier curso PBL es ayudar a las personas a contribuir a proyectos reales.
       </Heading>
       <Container maxWidth="80%" bgColor="theme.lightGray" marginTop="2em" marginLeft="0">
         <Stack>
           <Heading lineHeight="1.4" mt="1em" ml="2em" color="white">
-            Modules are organized with the PBL Framework:
+            Los módulos están organizados conforme a la estructura PBL:
           </Heading>
           <Grid templateColumns="repeat(5, 1fr)" gap={5} p="5">
             <GridItem colSpan={3}>
               <Box>
                 <Text fontWeight="bold" fontSize="lg" m="3" color="white">
-                  Onboarding (100):
+                  Inducción (100):
                 </Text>
 
                 <Text fontSize="lg" m="3" color="white">
-                  What is that? How can I get started?
+                  ¿Qué es esto? ¿Cómo puedo empezar?
                 </Text>
 
                 <Divider my="8" />
 
                 <Text fontWeight="bold" fontSize="lg" m="3" color="white">
-                  Building Background Knowledge (200):
+                  Desarrollando conocimientos básicos (200):
                 </Text>
                 <Text fontSize="lg" m="3" color="white">
-                  How does it work? What do I need to know?
+                  ¿Cómo funciona? ¿Qué necesito saber?
                 </Text>
 
                 <Divider my="8" />
 
                 <Text fontWeight="bold" fontSize="lg" m="3" color="white">
-                  Specializing (300):
+                  Especialización (300):
                 </Text>
                 <Text fontSize="lg" m="3" color="white">
-                  How did you build it?
+                  ¿Cómo lo construíste?
                 </Text>
 
                 <Divider my="8" />
 
                 <Text fontWeight="bold" fontSize="lg" m="3" color="white">
-                  Contributing (400):
+                  Contribuyendo (400):
                 </Text>
                 <Text fontSize="lg" m="3" color="white">
-                  How can I contribute?
+                  ¿Cómo puedo contribuir?
                 </Text>
               </Box>
             </GridItem>
@@ -63,10 +63,10 @@ const PBLFramework = () => {
         Next:
       </Heading>
       <Text fontSize="xl" my="5">
-        Each module consists of a set of Student Learning Targets (SLTs) that describe what you will learn in the course.
+        Cada módulo consiste de un grupo de Objetivos de Aprendizaje del Estudiante que describe lo que aprenderás en el curso.
       </Text>
       <Link href="/get-started/slts">
-        <Button>Tell me about Student Learning Targets!</Button>
+        <Button>¡Cuéntame sobre los Objetivos de Aprendizaje del Estudiante!</Button>
       </Link>
     </Container>
   );

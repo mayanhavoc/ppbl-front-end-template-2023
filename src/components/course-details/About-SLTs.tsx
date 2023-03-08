@@ -6,45 +6,43 @@ const AboutSLTs = () => {
   return (
     <Container maxWidth="80%" marginLeft="1em" marginTop="2em">
       <Heading size="2xl" color="theme.blue">
-        Here is how this course works:
+        Este curso funciona de la siguiente manera:
       </Heading>
       <OrderedList margin="1em" marginLeft="3em">
         <ListItem fontSize="xl" py="2">
-          PPBL2023 Consists of 14 course Modules
+          EL PPBL2023 consiste de 14 módulos
         </ListItem>
         <ListItem fontSize="xl" py="2">
-          Each Module starts with a list of Student Learning Targets (SLTs)
+          Cada módulo inicia con una lista de Objetivos de Aprendizaje para el Estudiantes (SLTs por sus siglas en inglés)
         </ListItem>
         <ListItem fontSize="xl" py="2">
-          The lessons in each module are designed to help you master each Student Learning Target.
+          Las lecciones de cada módulo están diseñadas para ayudar a desarrollar maestría en cada uno de esos objetivos.
         </ListItem>
         <ListItem fontSize="xl" py="2">
-          You will complete projects to learn through experience how Cardano works. Along the way, you will demonstrate
-          mastery of the learning targets.
+          Completarás proyectos para aprender a través de la experiencia como funciona Cardano. A lo largo del camino, demostrarás maestría de los objetivos de aprendizaje.
         </ListItem>
         <ListItem fontSize="xl" py="2">
-          Together, we will explore ways to use Cardano and Plutus to represent your mastery status on chain.
+          Juntos exploraremos las maneras en que Cardano y Plutus representan tu status de maestría 'on-chain'.
         </ListItem>
       </OrderedList>
       <Divider my="3" />
       <Heading size="xl" color="theme.blue" my="0.8em">
-        What is a Student Learning Target?
+        ¿Qué es un Objetivo de Aprendizaje del Estudiante?
       </Heading>
       <Text fontSize="xl" my="5">
-        A student learning target describes what you will know and be able to do at the end of of Lesson or Module.
+        Un objetivo de aprendizaje describe que sabrás y qué podrás hacer al finalizar la lección o módulo.
       </Text>
       <Text fontSize="xl" my="5">
-        In other words, each SLT should help you understand why each lesson is here.
+        En otras palabras, cada SLT debería ayudar a entender porque existe la lección.
       </Text>
       <Divider my="3" />
       <Heading size="xl" color="theme.blue" my="0.8em">
-        Next:
+        Siguientes pasos:
       </Heading>
       <Text fontSize="xl" my="5">
-        Take a look at the list of Course Modules and Student Learning Targets in PPBL 2023.
-      </Text>
+        Dale un vistazo a la lista de módulos del curso así como a los objetivos de aprendizaje para el estudiante en el PPBL 2023.</Text>
       <Link href="/get-started/modules">
-        <Button>Show me the Modules and SLTs!</Button>
+        <Button>¡Enséñame los módulos y SLTs!</Button>
       </Link>
     </Container>
   );
