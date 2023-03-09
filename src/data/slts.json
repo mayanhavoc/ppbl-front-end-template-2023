@@ -89,7 +89,12 @@
         { "id": "102.5", "slt": "I can unlock funds from a contract address using cardano-cli." },
         { "id": "102.6", "slt": "I can use bash scripts to build re-usable transactions." }
       ],
-
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
+      ]
     },
     {
       "number": 103,
@@ -100,6 +105,12 @@
         { "id": "103.1", "slt": "I can make a contribution to an open source project using git." },
         { "id": "103.2", "slt": "I can re-use code from existing projects." },
         { "id": "103.3", "slt": "I can ask questions on Cardano Stack Exchange." }
+      ],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
       ]
     },
     {
