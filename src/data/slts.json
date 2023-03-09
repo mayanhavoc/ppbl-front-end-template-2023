@@ -222,6 +222,12 @@
           "slt": "I can run Plutus documentation locally and write comments properly in order to generate haddock for a new project."
         },
         { "id": "302.9", "slt": "I can secure Datum, Redeemer and Contract Parameters for my SC and project." }
+      ],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
       ]
     },
     {
