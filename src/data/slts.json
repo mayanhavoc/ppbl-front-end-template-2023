@@ -167,23 +167,23 @@
           "name": "Student Learning Targets"
         },
         {
-          "slug": "1001",
+          "slug": "2001",
           "name": "Lesson 1"
         },
         {
-          "slug": "1002",
+          "slug": "2002",
           "name": "Lesson 2"
         },
         {
-          "slug": "1003",
+          "slug": "2003",
           "name": "Lesson 3"
         },
         {
-          "slug": "1004",
+          "slug": "2004",
           "name": "Lesson 4"
         },
         {
-          "slug": "1005",
+          "slug": "2005",
           "name": "Lesson 5"
         }
       ]
@@ -204,15 +204,15 @@
           "name": "Student Learning Targets"
         },
         {
-          "slug": "1001",
+          "slug": "2001",
           "name": "Lesson 1"
         },
         {
-          "slug": "1002",
+          "slug": "2002",
           "name": "Lesson 2"
         },
         {
-          "slug": "1003",
+          "slug": "2003",
           "name": "Lesson 3"
         }
       ]
@@ -232,6 +232,22 @@
         {
           "slug": "slts",
           "name": "Student Learning Targets"
+        },
+        {
+          "slug": "2001",
+          "name": "Lesson 1"
+        },
+        {
+          "slug": "2002",
+          "name": "Lesson 2"
+        },
+        {
+          "slug": "2003",
+          "name": "Lesson 3"
+        },
+        {
+          "slug": "2004",
+          "name": "Lesson 4"
         }
       ]
     },
@@ -248,6 +264,14 @@
         {
           "slug": "slts",
           "name": "Student Learning Targets"
+        },
+        {
+          "slug": "2001",
+          "name": "Lesson 1"
+        },
+        {
+          "slug": "2002",
+          "name": "Lesson 2"
         }
       ]
     },
@@ -266,6 +290,22 @@
         {
           "slug": "slts",
           "name": "Student Learning Targets"
+        },
+        {
+          "slug": "3001",
+          "name": "Lesson 1"
+        },
+        {
+          "slug": "3002",
+          "name": "Lesson 2"
+        },
+        {
+          "slug": "3003",
+          "name": "Lesson 3"
+        },
+        {
+          "slug": "3004",
+          "name": "Lesson 4"
         }
       ]
     },
@@ -295,6 +335,42 @@
         {
           "slug": "slts",
           "name": "Student Learning Targets"
+        },
+        {
+          "slug": "3001",
+          "name": "Lesson 1"
+        },
+        {
+          "slug": "3002",
+          "name": "Lesson 2"
+        },
+        {
+          "slug": "3003",
+          "name": "Lesson 3"
+        },
+        {
+          "slug": "3004",
+          "name": "Lesson 4"
+        },
+        {
+          "slug": "3005",
+          "name": "Lesson 5"
+        },
+        {
+          "slug": "3006",
+          "name": "Lesson 6"
+        },
+        {
+          "slug": "3007",
+          "name": "Lesson 7"
+        },
+        {
+          "slug": "3008",
+          "name": "Lesson 8"
+        },
+        {
+          "slug": "3009",
+          "name": "Lesson 9"
         }
       ]
     },
@@ -311,6 +387,14 @@
         {
           "slug": "slts",
           "name": "Student Learning Targets"
+        },
+        {
+          "slug": "3001",
+          "name": "Lesson 1"
+        },
+        {
+          "slug": "3002",
+          "name": "Lesson 2"
         }
       ]
     },
@@ -334,6 +418,18 @@
         {
           "slug": "slts",
           "name": "Student Learning Targets"
+        },
+        {
+          "slug": "3001",
+          "name": "Lesson 1"
+        },
+        {
+          "slug": "3002",
+          "name": "Lesson 2"
+        },
+        {
+          "slug": "3003",
+          "name": "Lesson 3"
         }
       ]
     },
@@ -353,6 +449,26 @@
         {
           "slug": "slts",
           "name": "Student Learning Targets"
+        },
+        {
+          "slug": "3001",
+          "name": "Lesson 1"
+        },
+        {
+          "slug": "3002",
+          "name": "Lesson 2"
+        },
+        {
+          "slug": "3003",
+          "name": "Lesson 3"
+        },
+        {
+          "slug": "3004",
+          "name": "Lesson 4"
+        },
+        {
+          "slug": "3005",
+          "name": "Lesson 5"
         }
       ]
     },
