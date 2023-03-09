@@ -124,7 +124,14 @@
         { "id": "201.3", "slt": "I can create a web app that renders differently if a user holds a Cardano token." },
         { "id": "201.4", "slt": "I can query the blockchain with GraphQL and Koios." },
         { "id": "201.5", "slt": "I can use git to create a feature branch and submit a merge request." }
+      ],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
       ]
+      
     },
     {
       "number": 202,
