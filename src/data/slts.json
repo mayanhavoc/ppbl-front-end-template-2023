@@ -238,6 +238,12 @@
       "slts": [
         { "id": "303.1", "slt": "I can write a Plutus script using Aiken." },
         { "id": "303.2", "slt": "I can implement Plutus business logic in Aiken." }
+      ],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
       ]
     },
     {
