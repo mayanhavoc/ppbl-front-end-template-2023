@@ -10,7 +10,21 @@
         { "id": "100.2", "slt": "I can get free tAda on the pre-production testnet." },
         { "id": "100.3", "slt": "I know how to safely store my keys." },
         { "id": "100.4", "slt": "I can mint a PPBL Contributor Token." }
-      ]
+      ], 
+      "lessons": [
+        {
+          "slug": "slts",
+          "name": "Module 100 Overview + SLTs" 
+        },
+        {
+          "slug": "1001",
+          "name": "Lesson 1: Connect a Wallet to Preprod"
+        },
+        {
+          "slug": "1002",
+          "name": "Lesson 2: Get tAda from PreProd Faucet"
+        }
+      ] 
     },
     {
       "number": 101,
