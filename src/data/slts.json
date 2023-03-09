@@ -280,6 +280,12 @@
         { "id": "305.3", "slt": "I can explain how CI adds value to a project team." },
         { "id": "305.4", "slt": "I can explain the outcomes of verification and audit." },
         { "id": "305.5", "slt": "I can test a validation script written in Aiken." }
+      ],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
       ]
     },
     {
