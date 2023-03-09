@@ -159,6 +159,12 @@
         { "id": "203.2", "slt": "I can create a Cardano NFT that adheres to CIP-25 standards." },
         { "id": "203.3", "slt": "I know where to learn more about Cardano Improvement Proposals." },
         { "id": "203.4", "slt": "I can contribute to new standards in this development ecosystem." }
+      ],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
       ]
     },
     {
