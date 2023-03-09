@@ -16,13 +16,11 @@ import { items } from "@/src/data/get-started";
 const selected = 0;
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  const paths = items.map((item) => ({ params: {
+    lesson: item.slug
+  }}));
   return {
-    paths: [
-      { params: { details: items[0].slug } },
-      { params: { details: items[1].slug } },
-      { params: { details: items[2].slug } },
-      { params: { details: items[3].slug } },
-    ],
+    paths,
     fallback: false,
   };
 };
