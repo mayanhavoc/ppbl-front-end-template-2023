@@ -293,7 +293,13 @@
       "title": "Introducing Gimbal Project Treasury and Escrow",
       "releaseDate": "2023-05-15",
       "updatedDate": "2023-05-15",
-      "slts": []
+      "slts": [],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
+      ]
     }
   ]
 }
