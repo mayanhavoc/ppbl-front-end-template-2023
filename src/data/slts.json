@@ -482,6 +482,10 @@
         {
           "slug": "slts",
           "name": "Student Learning Targets"
+        },
+        {
+          "slug": "4001",
+          "name": "Lesson 1"
         }
       ]
     }
