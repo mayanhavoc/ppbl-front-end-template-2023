@@ -85,26 +85,6 @@ import {
             align={'center'}
             direction={'row'}
             spacing={6}>
-            <Button
-              as={'a'}
-              display={{ base: 'none', lg: 'inline-flex' }}
-              fontSize={'sm'}
-              fontWeight={400}
-              variant={'link'}
-              href={'#'}>
-              Sign In
-            </Button>
-            <Button
-              as={'a'}
-              display={{ base: 'none', lg: 'inline-flex' }}
-              fontSize={'sm'}
-              fontWeight={600}
-              href={'#'}
-              _hover={{
-                bg: 'theme.blue',
-              }}>
-              Sign Up
-            </Button>
             <CardanoWallet />
             <Button onClick={toggleColorMode}>
               {colorMode === 'light' ? <SunIcon /> : <MoonIcon />}
