@@ -175,6 +175,12 @@
       "slts": [
         { "id": "204.1", "slt": "I can deploy an instance of a Plutus script with custom parameters" },
         { "id": "204.2", "slt": "I can contribute to a headless, decentralized application." }
+      ],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
       ]
     },
     {
@@ -187,6 +193,12 @@
         { "id": "301.2", "slt": "I know enough haskell to understand some common validator design patterns." },
         { "id": "301.3", "slt": "I understand how Datum is used in Plutus validators." },
         { "id": "301.4", "slt": "I understand how Redeemers are used in Plutus validators." }
+      ],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
       ]
     },
     {
