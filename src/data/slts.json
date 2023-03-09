@@ -131,7 +131,6 @@
           "name": "Student Learning Targets"
         }
       ]
-      
     },
     {
       "number": 202,
@@ -142,6 +141,12 @@
         { "id": "202.1", "slt": "I can mint a Cardano native asset using Mesh APIs." },
         { "id": "202.2", "slt": "I can mint native assets with native scripts using cardano-cli." },
         { "id": "202.3", "slt": "I can mint a native asset using a Plutus Minting script." }
+      ],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
       ]
     },
     {
