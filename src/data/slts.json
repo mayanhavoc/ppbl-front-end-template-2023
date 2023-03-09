@@ -261,6 +261,12 @@
           "slt": "I can create user interfaces which enable the user to interact with the blockchain by forming appropriate transactions for some interaction."
         },
         { "id": "304.3", "slt": "I can use Kupo to create an index of on-chain data." }
+      ],
+      "lessons":[
+        {
+          "slug": "slts",
+          "name": "Student Learning Targets"
+        }
       ]
     },
     {
